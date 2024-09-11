@@ -3,7 +3,7 @@ const express = require('express');
 const app = express();
 
 // Define the port to run the server
-const port = 3000;
+const port = 8080;
 
 // Home route (GET request to '/')
 app.get('/', (req, res) => {
